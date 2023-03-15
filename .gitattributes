@@ -32,6 +32,33 @@
 *.css linguist-detectable=true
 *.css linguist-documentation=false
 *.css linguist-language=CSS
+# Ruby source file
+*.rb linguist-detectable=true
+*.rb linguist-documentation=false
+*.rb linguist-language=Ruby
+*.rbx linguist-detectable=true
+*.rbx linguist-documentation=false
+*.rbx linguist-language=Ruby
+*.gem linguist-detectable=true
+*.gem linguist-documentation=false
+*.gem linguist-language=Ruby
+*.ruby linguist-detectable=true
+*.ruby linguist-documentation=false
+*.ruby linguist-language=Ruby
+*.rake linguist-detectable=true
+*.rake linguist-documentation=false
+*.rake linguist-language=Ruby
+*.gemspec linguist-detectable=true
+*.gemspec linguist-documentation=false
+*.gemspec linguist-language=Ruby
+# Raku source file
+*.raku linguist-detectable=true
+*.raku linguist-documentation=false
+*.raku linguist-language=Raku
+# WikiText
+*.wiki linguist-detectable=true
+*.wiki linguist-documentation=false
+*.wiki linguist-language=WikiText
 # Less stylesheet file
 *.less linguist-detectable=true
 *.less linguist-documentation=false
@@ -106,10 +133,6 @@
 *.rst linguist-detectable=false
 *.rst linguist-documentation=false
 *.rst linguist-language=ReStructured-Text
-# WikiText
-*.wiki linguist-detectable=false
-*.wiki linguist-documentation=false
-*.wiki linguist-language=WikiText
 # BibTeX
 *.bib linguist-detectable=false
 *.bib linguist-documentation=false
@@ -161,10 +184,13 @@
 *.gif linguist-detectable=false
 *.gif linguist-documentation=false
 *.gif linguist-language=GIF
+
 # End of linguist script
 
 # File info
-# File type: gitattributes file (.gitattributes)
-# File version: 4 (2022, Tuesday, June 28th at 2:32 pm PST)
-# Line count (including blank lines and compiler line): 171
+
+# File type: gitattributes file (*.gitattributes)
+# File version: 5 (2023, Wednesday, March 15th at 12:10 pm PST)
+# Line count (including blank lines and compiler line): 197
+
 # End of script
